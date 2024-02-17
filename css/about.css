@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+}
+
+.titr{
+    font-size: 35px;
+    color: rgb(113, 109, 109);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.red{
+    color: rgba(219, 0, 0, 0.703);
+}
+
+.khat{
+    margin: 15px 0 100px;
+}
+
+.badane{
+    margin: 0 30px;
+}
+
+@font-face {
+    font-family: nazok;
+    src: url(../fonts/Far-Mitra.ttf);
+}
+
+.ke-hastim, .chemikonim{
+    font-size: 60px;
+    font-family: nazok;
+    color: black;
+}
+
+.moarefi, .karma, .kardrshirazkala{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.74);
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.moarefi-l img, .karma-l img, .kardrshirazkala-r img{
+    width: 550px;
+    margin: 30px;
+}
+
+.moarefi-r, .karma-r, .kardrshirazkala-l{
+    width: 50%;
+    margin: 30px;
+    margin-right: 40px;
+    font-size: larger;
+    line-height: 35px;
+    word-spacing: 2px;
+}
+
+.kar{
+    font-size: 40px;
+    font-family: nazok;
+    color: rgba(0, 0, 0, 0.64);
+    word-spacing: -3px;
+}
+
+.tarikhche{
+    background-color: white;
+    padding: 30px;
+    width: 800px;
+    border-radius: 5px 40px;
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+
+.history, .masuliat{
+    font-size: 40px;
+    font-family: nazok;
+    color: rgb(116, 90, 90);
+}
+
+.tarikhche p, .vazife p{
+    font-size: larger;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.vazife{
+    background-color: white;
+    padding: 30px;
+    width: 800px;
+    border-radius: 40px 5px;
+    margin-right: 500px;
+    margin-bottom: 150px;
+}
+
+#top-image{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.flex-footer{
+    background-color: rgb(42, 40, 40);
+    border-top: 5px solid rgb(253, 2, 2);
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.right{
+    width: 45%;
+    margin-right: 100px;
+    padding: 75px 0;
+}
+
+.left{
+    padding: 20px;
+}
+
+.left a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.left ul{
+    list-style-type: none;
+}
+
+.white{
+    color: white;
+}
+
+.large{
+    font-size: 20px;
+}
+
+.larger{
+    font-size: 25px;
+}
+
+.icon{
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+footer input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px lightgray;
+}
+
+footer input[type="email"]{
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: large;
+}
+
+footer input[type="email"]::placeholder{
+    font-size: large;
+    color: black;
+}
+
+footer input[type="submit"]{
+    background-color: lightgray;
+    margin-right: 10px;
+    width: 55px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    color: black;
+}

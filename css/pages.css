@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header'
+        'main main main'
+        'footer footer footer';
+}
+
+.item-header {
+    grid-area: header;
+}
+
+.item-main {
+    grid-area: main;
+}
+
+.item-footer {
+    grid-area: footer;
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-areas: 'header'
+            'main'
+            'footer';
+    }
+}
+
+.item-main{
+    margin: 30px;
+}

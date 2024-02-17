@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+}
+
+.titr{
+    font-size: 35px;
+    color: rgb(113, 109, 109);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.red{
+    color: rgba(219, 0, 0, 0.703);
+}
+
+.khat{
+    margin: 15px 0 100px;
+}
+
+.badane{
+    margin: 100px 50px;
+    background-color: rgba(255, 0, 0, 0.614);
+    padding: 60px 70px 20px;
+    border-radius: 0 70px;
+}
+
+.ertebat{
+    background-color: #FF884B;
+    padding: 30px;
+    padding-right: 45px;
+    box-sizing: border-box;
+    width: 550px;
+    border-radius: 30px 5px;
+    transition: transform 2s;
+}
+
+.ertebat:hover{
+    transform: scale(1.1);
+}
+
+.larger{
+    font-size: 25px;
+    color: #400D51;
+}
+
+.naghshe{
+    margin: 100px 60px;
+    background-color: #B4CDE6;
+    padding: 50px;
+    border-radius: 15px;
+    width: 700px;
+    height: 550px;
+    transition: transform 2s;
+}
+
+.naghshe:hover{
+    transform: scale(1.1);
+}
+
+.naghshe span{
+    color: #562B08;
+    font-size: 30px;
+}
+
+.naghshe iframe{
+    margin: 30px 30px 0 0;
+}
+
+#top-image{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.kanalha{
+    background-color: #C689C6;
+    margin: 100px 350px;
+    padding: 40px 70px 50px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 500px;
+    transition: transform 2s;
+}
+
+.kanalha:hover{
+    transform: scale(1.1);
+}
+
+.kanalha span{
+    font-size: 30px;
+}
+
+.shabakeha{
+    display: flex;
+    margin: 25px 15px 0 0;
+}
+
+.shabakeha a{
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#instagram{
+    color: rgb(223, 53, 53);
+}
+
+#twitter{
+    color: rgb(0, 170, 255);
+}
+
+#whatsapp{
+    color: rgb(9, 174, 17);
+}
+
+#linkedin{
+    color: rgb(32, 32, 198);
+}

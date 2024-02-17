@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: cadetblue;
+}
+
+.titr{
+    font-size: 35px;
+    color: rgb(71, 25, 25);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.khat{
+    margin: 15px 0 100px;
+}
+
+.mahsulat{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mahsulat a{
+    text-decoration: none;
+    color: black;
+}
+
+.apple{
+    background-color: rgb(207, 199, 199);
+    padding: 40px;
+    margin: 50px;
+    border-radius: 30px;
+    transition: transform 1s;
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.samsung{
+    background-color: rgb(207, 199, 199);
+    padding: 40px;
+    margin: 50px;
+    border-radius: 30px;
+    transition: transform 1s;
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.huawei{
+    background-color: rgb(207, 199, 199);
+    padding: 40px;
+    margin: 50px;
+    border-radius: 30px;
+    transition: transform 1s;
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.apple:hover, .samsung:hover, .huawei:hover{
+    transform: scale(1.1);
+}
+
+.apple img{
+    width: 200px;
+    margin-bottom: 50px;
+    margin-right: 28px;
+    border-radius: 20px;
+}
+
+.samsung img{
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.huawei img{
+    width: 200px;
+    margin-right: 28px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.apple span{
+    padding: 0 100px;
+    font-size: 50px;
+}
+
+.huawei span{
+    padding: 0 73px;
+    font-size: 50px;
+}
+
+.samsung span{
+    padding: 0 50px;
+    font-size: 50px;
+}
+
+#top-image{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

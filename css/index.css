@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 225, 255);
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/Yekan.ttf);
+}
+
+#welcome{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: #400D51;
+    font-family: yekan;
+    animation: backInDown;
+    animation-duration: 2s;
+}
+

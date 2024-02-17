@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sabtenam.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.2.0-web/css/all.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header role="banner" class="item-header" id="top">
+            <nav role="navigation" class="flex-menu">
+                <div class="flex-item">
+                    <a href="../index.html">صفحه اصلی سایت</a>
+                </div>
+                <div class="flex-item">
+                    <a href="products.html">محصولات</a>
+                </div>
+                <div class="flex-item">
+                    <a href="contact.html">ارتباط با ما</a>
+                </div>
+                <div class="flex-item">
+                    <a href="about.html">درباره ما</a>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="item-main">
+            <div class="badane">
+                <form action="">
+                    <legend>
+                        شیراز کالا
+                    </legend>
+                    <ul>
+                        <li>
+                            <label for="firstname" class="onvan">نام</label>
+                            <br>
+                            <input name="firstname" type="text" required class="jaykhali" placeholder="نام">
+                        </li>
+                        <li>
+                            <label for="lastname" class="onvan">نام خانوادگی</label>
+                            <br>
+                            <input name="lastname" type="text" required class="jaykhali" placeholder="نام خانوادگی">
+                        </li>
+                        <li>
+                            <label for="codemeli" class="onvan">کد ملی</label>
+                            <br>
+                            <input name="codemeli" type="tel" pattern="[0-9]{10}" maxlength="10" minlength="10" required
+                                class="jaykhali" placeholder="کد ملی">
+                        </li>
+                        <li>
+                            <label for="telephone" class="onvan"> شماره تلفن همراه</label>
+                            <br>
+                            <input name="telephone" type="tel" pattern="[0-9]{11}" maxlength="11" minlength="11"
+                                required class="jaykhali" placeholder="شماره تلفن همراه">
+                        </li>
+                        <li>
+                            <label for="email" class="onvan">ایمیل</label>
+                            <br>
+                            <input name="email" type="email" required class="jaykhali" placeholder="ایمیل">
+                        </li>
+                        <li>
+                            <input name="ghavanin" type="checkbox" required>
+                            <label for="ghavanin" class="onvan">
+                                قوانین سایت را قبول دارم.
+                            </label>
+                        </li>
+                        <li class="sabt">
+                            <input type="submit" value=" ثبت نام">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="bargasht">
+                <a href="vorod.html">
+                    <div class="back" title="go to previous page">
+                        <p>
+                            بازگشت
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer role="contentinfo" class="item-footer">
+            <div class="flex-footer">
+                <div class="footer-item right">
+                    <span class="white larger">آدرس:</span>
+                    <span class="white larger">شیراز، پل معالی آباد، خیابان شهید کبار</span>
+                    <br>
+                    <br>
+                    <span class="white larger">شماره تماس:</span>
+                    <span class="white larger">09391128174</span>
+                    <br>
+                    <br>
+                    <span class="white larger">شماره تماس ثابت:</span>
+                    <span class="white larger">07136357081</span>
+                </div>
+                <div class="footer-item left">
+                    <ul>
+                        <li>
+                            <p class="white large">
+                                همراه ما باشید!
+                            </p>
+                        </li>
+                        <li class="icon">
+                            <a href="https://www.instagram.com/digikalacom/" title="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/digikalacom" title="twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" title="whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/digikala/mycompany/" title="linkedin">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <form>
+                                <label for="email" class="white large">با ثبت ایمیل، از جدید‌ ترین تخفیف‌ ها با‌ خبر
+                                    شوید
+                                </label>
+                                <br>
+                                <input name="email" type="email" required placeholder="ایمیل شما">
+                                <input type="submit" value="ثبت">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <a href="#top">
+        <img src="../img/top.png" alt="top-image" id="top-image" title="go to top">
+    </a>
+</body>
+
+</html>

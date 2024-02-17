@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+    background-color: #FFD372;
+}
+
+.badane{
+    background-color: #D58BDD;
+    margin: 100px 300px 100px;
+    padding: 50px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+}
+
+@font-face {
+    font-family: mitra;
+    src: url(../fonts/Far-Mitra.ttf);
+}
+
+.badane legend{
+    text-align: center;
+    color: rgba(219, 0, 0, 0.703);
+    font-size: 50px;
+    font-family: mitra;
+}
+
+.badane ul{
+    margin: 50px;
+    list-style-type: none;
+}
+
+.badane ul li{
+    margin-bottom: 30px;
+}
+
+.jaykhali{
+    margin: 10px 5px 0 0;
+    font-size: large;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.jaykhali::placeholder{
+    color: rgb(131, 131, 131);
+    padding: 5px;
+}
+
+.sabt{
+    text-align: center;
+}
+
+.badane input[type="submit"]{
+    font-size: x-large;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 12px;
+    font-family: mitra;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 0;
+}
+
+.badane input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.onvan{
+    font-size: x-large;
+    font-family: mitra;
+    font-weight: 600;
+}
+
+.bargasht{
+    /* border: 1px solid rgb(152, 152, 152); */
+    text-align: center;
+    margin: 0 620px 100px;
+    /* background-color: rgb(233, 231, 231); */
+    /* border-radius: 5px; */
+    transition: transform 1s;
+}
+
+.bargasht:hover{
+    transform: scale(1.1);
+}
+
+.bargasht a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
+
+.back{
+    border: 1px solid rgb(152, 152, 152);
+    background-color: rgb(233, 231, 231);
+    border-radius: 5px;
+}
+
+.back p{
+    font-family: mitra;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .back{
+        padding: 0 10px;
+    }
+}
+
+#top-image{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
